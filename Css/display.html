@@ -17,6 +17,19 @@
             width: 200px;
             display: inline-block;
         }
+        .color{height: 70px; width: 70px; display: inline-block;}
+        #a{background-color: aqua;}
+        #b{background-color: violet;}
+        #c{background-color: yellow; display: none;}
+        #ç{background-color: yellow; visibility: hidden;}
+        #d{background-color: black;}
+        #e{background-color: tomato;}
+        a{
+            background-color: rgb(77, 77, 102);
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+        }
     </style>
 </head>
 <body>
@@ -40,16 +53,19 @@
     <br>
     <br>
     <div id="renkler">
-        <div style="text-align: center; line-height: 60px;" class="Renk" id="bir">lorem</div>
-        <div style="text-align: center; line-height: 60px;"  class="Renk" id="iki">iki</div>
-        <div style="text-align: center; line-height: 60px;"  class="Renk" id="üç">Bloglar</div>
-        <div style="text-align: center; line-height: 60px;"  class="Renk" id="dört">Haberler</div>
-        <div style="text-align: center; line-height: 60px;"  class="Renk" id="beş">Kaynakça</div>
+        <div class="color" id="a"></div>
+        <div class="color" id="b"></div>
+        <div class="color" id="c"></div>
+        <div class="color" id="ç"></div>
+        <div class="color" id="d"></div>
+        <div class="color" id="e"></div>
     </div>
 
     <!-- display: inline = Olduğu yer kadar kaplar.
     block = bütün satırı kaplar.
-    inline-block = hem inline hemde istediğimiz kadar yer kaplar.-->
+    inline-block = hem inline hemde istediğimiz kadar yer kaplar.
+    none = Nesneyi tamamen kaybeder.
+    visibility = Nesneyi gizler ama konumunu korur.-->
 
 </body>
 </html>
