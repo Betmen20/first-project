@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        *{margin: 0px;}
+        #İletişim{
+            background-color: navy;
+            padding: 30px;
+        }
+
+        #Anakısım{
+            background-color: yellow;
+            padding: 150px;
+        }
+
+        #Nav{
+            background: #be1a1a;
+            padding: 25px;
+        }
+        #Menüler{
+            display: inline-block;
+            width: calc(100% - 65px);
+            text-align: right;
+        }
+        /* Center Yaparsak Ortalar */
+
+        .Ana-logo{
+            color: black;
+            font-weight: bold;
+            font-size: 19px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .itemler{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-size: 19px;
+            font-weight: bold;
+        }
+        .item{
+            display: inline-block;
+            margin: 0 60px;
+            text-decoration: none;
+        }
+        .item > a{
+            color: black;
+            background-color: fuchsia;
+            text-decoration: none;
+            border: 2px solid white;
+            padding: 5px 16px;
+            border-radius: 10px;
+        }
+        .item-anasayfa a{
+            color: black;
+            background-color: fuchsia;
+            border: 2px solid white;
+            padding: 5px 16px;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+        .iletişim{
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <header id="Nav">
+        <a href="https://www.udemy.com/" class="Ana-logo" target="_blank">Udemy</a>
+        <nav id="Menüler">
+            <ul class="itemler">
+                <li class="item item-anasayfa">
+                    <a href="#">Anasayfa</a>
+                </li>
+
+                <li class="item">
+                    <a href="#">Kurslar</a>
+                </li>
+
+                <li class="item">
+                    <a href="#">Eğitmenler</a>
+                </li>
+
+                <li class="item">
+                    <a href="#">İletişim</a>
+                </li>
+
+                <li class="item">
+                    <a href="#">Kaynakça</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <section id="Anakısım">
+            <h1>Udemye Hoş Geldiniz</h1>
+        </section>
+        <section id="İletişim" class="iletişim">
+            <h1>İletişim Bilgileri İçin Buraya Tıklayın...</h1>
+        </section>
+    </div>
+    <img src="fb.jpg" alt="" height="450" width="450">
+    
+</body>
+</html>
