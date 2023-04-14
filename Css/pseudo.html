@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        p::first-letter{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 50px;
+        }
+        p::first-line{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(56, 116, 139);
+            background-color: black;
+        }
+
+        p::after{
+            content: '\1F30D';
+        }
+        ::selection{
+            background-color: pink;
+        }
+        
+        a{
+            padding: 10px 10px;
+            display: inline-block;
+            text-decoration: none;
+            width: 70px;
+            text-align: center;
+        }
+        a:hover{
+            color: #408686;
+            background-color: crimson;
+        }
+        a:active{
+            color: chartreuse;
+            background-color: violet;
+            font-size: 20px;
+        }
+        a:link{
+            color: sienna;
+        }
+        a:visited{
+            color:teal;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Pseudo Öğreniyoruz...</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Fugit ut commodi incidunt soluta delectus quae voluptatem 
+        aliquid eaque eveniet sint?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Aspernatur sint minus ducimus eveniet similique repellat placeat. 
+        Maxime eligendi ad velit reprehenderit enim, praesentium, 
+        delectus cum aliquam officiis, ex magnam minus!</p>
+    <br>
+    <p class="selection">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Aspernatur sint minus ducimus eveniet similique repellat placeat. 
+        Maxime eligendi ad velit reprehenderit enim, praesentium, 
+        delectus cum aliquam officiis, ex magnam minus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Aspernatur sint minus ducimus eveniet similique repellat placeat. 
+        Maxime eligendi ad velit reprehenderit enim, praesentium, 
+        delectus cum aliquam officiis, ex magnam minus!</p>
+
+    <a href="display.html">Menü</a>
+    <a href="index.html">Anasayfa</a>
+    <a href="navbar.html">Kurslar</a>
+
+            <!-- :: = Kavramı Elmentslerde Kullanılır.
+            : = Kavramı Classeslerda Kullanılır. -->
+</body>
+
+</html>
