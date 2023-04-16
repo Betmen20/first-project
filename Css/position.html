@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        html{
+            height: 3000px;
+            margin: 0;
+        }
+        .body{
+            margin: 0;
+        }
+        .Metin{
+            padding: 15px;
+            border: 2px solid;
+            margin-top: 5px;
+        }
+        .başlık{
+            background-color: darkgoldenrod;
+        }
+        .içerik{
+            background-color: darkkhaki;
+        }
+        .son{
+            background-color: steelblue;
+            position: sticky;
+            top: 20;
+        }
+    </style>
+</head>
+<body>
+    <div class="Metin başlık">Anasayfa  Menüler  Haberler  Canlı Yayın  </div>
+    <br>
+    <div class="Metin içerik">Lorem ipsum dolor sit amet</div>
+    <br>
+    <div class="Metin son">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Dignissimos consectetur provident quam tenetur perspiciatis quidem? 
+            Consequuntur error quasi earum fugiat dolore at numquam vitae nisi.
+            Voluptatum, deserunt rerum? Voluptate, expedita?</div>
+</body>
+</html>
+<!-- Position Türleri
+
+-Static olursa akışı korur.
+-Relative olursa olduğu akış içinde dört taraftan hareket ettirilebilir.
+-Absolute olursa olduğu akışın dışına çıkar. Dört taraftan hareket ettirilebilir.
+-Fixed olursa olduğu akışta sabitlenir. Sayfayı aşağı indirseniz bile konumunu korur.
+-Sticky olursa olduğu akışta devam eder ama sayfa aşağı inmeye başladığı anda fixed ile aynı görevi görür.
+-->
