@@ -26,17 +26,6 @@ console.log(typeof zenginmi); //boolean
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 // var ve let : değişken atamak için kullanılır
 // console.log(); : ekrana yansıtmak için kullanılır
 
