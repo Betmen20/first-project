@@ -1,28 +1,44 @@
-let batuHarçlık = 500;
-var ömerHarçlık = 300;
-let furkanHarçlık = 200;
+// let batuhanHarçlık = 500;
+// var ömerHarçlık = 300;
+// let berkanHarçlık = 200;
 
-var artış = 0.4;
+// var artış = 0.4;
 
-console.log(batuHarçlık + (batuHarçlık*artış))
-console.log(ömerHarçlık + (ömerHarçlık*artış))
-console.log(furkanHarçlık + (furkanHarçlık*artış))
+// console.log(batuhanHarçlık + (batuhanHarçlık*artış))
+// console.log(ömerHarçlık + (ömerHarçlık*artış))
+// console.log(berkanHarçlık + (berkanHarçlık*artış))
 
+// let isim = "Batuhan"; //String ("") varsa yazı
+// var yaşadığışehir = 34; //Number ("") yoksa sayı
+// var memleket = 37;
 
-let isim = "Batu"; //string
-var yaşadığışehir = 34; //number
-var memleket = 37;
+// console.log(typeof isim);
+// console.log(typeof memleket);
+// console.log(yaşadığışehir + memleket);
 
-console.log(typeof isim);
-console.log(typeof memleket);
-console.log(yaşadığışehir + memleket);
 
 
 let zenginmi = (maaşı > 50000);
 var maaşı=8000;
 
 console.log(zenginmi);
-console.log(typeof zenginmi); //boolean
+console.log(typeof zenginmi);//boolean
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
