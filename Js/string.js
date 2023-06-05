@@ -24,10 +24,12 @@ let şehir = "İstanbul";
 
 let sonuc = "Benim İsmim " + isim + " Ve Benim Mesleğim: " + meslek + ". " + "Ve Ben " + şehir +  "'da Yaşıyorum ";
 
+
+// `` = Backtick (ALTGR ile enterrin üstündeki tuş var ona bas)
 sonuc = `Benim İsmim ${isim} Ve Benim Mesleğim: ${meslek} Ve Ben ${şehir}'da Yaşıyorum.`;
 
 
-// `` = Backtick (ALTGR ile enterrin üstündeki tuş var ona bas)
+
 console.log(sonuc);
 
 
@@ -36,4 +38,4 @@ console.log(sonuc);
 
 
 
-// console.log(sonuç);
+console.log(sonuç);
