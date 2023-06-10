@@ -1,26 +1,25 @@
-var sonuç
+var sonuç;
 
 
-sonuç = 5;
-sonuç = "5";
-sonuç = String(5);
-sonuç = parseFloat("5.4");
-sonuç = parseInt("5.9");
+sonuç = 5; // sayı değerinde yazar
+sonuç = "5"; // string değerinde yazar
+sonuç = Number(5); // istersen string biçiminde yazar istersen number
+sonuç = parseFloat("5.4"); //direk 5.4 olarak yazar
 
-let sayısı = 5.4461561561456;
+let sayısı = 5.56156156621561;
 
-sonuç = sayısı.toFixed(5);
-sonuç = sayısı.toPrecision(5);
-
+sonuç = sayısı.toFixed(5); // 5 haneli bir yer almış olur
+sonuç = sayısı.toPrecision(5); // baştaki sayıyı kapsayarak 5 hanelir bir yeri alır
 
 
-sonuç =  Math.round(5.6);
-sonuç = Math.floor(5.4);
-sonuç = Math.min(3,6,1,8,0,5,9,);
-sonuç = Math.max(3,6,1,8,0,5,9,);
-sonuç = Math.random();
-sonuç = Math.ceil(6.4);
-sonuç = Math.sqrt(64);
+sonuç = Math.round(5.6); // en yakın sayıya yuvarlar
+sonuç = Math.floor(6.6); // en yakın sayıya sabit tutar
+sonuç = Math.min(1,6,7,4,9,0); // en küçük sayıyı ekrana verir
+sonuç = Math.max(1,6,7,4,9,0); // en büyük sayıyı ekrana verir
+sonuç = Math.random(); // random sayı üretir
+sonuç = Math.ceil(6.4); // sayıyı tamamlar 
+sonuç = Math.sqrt(49); // sayının karekökünü alır
+
 
 
 
